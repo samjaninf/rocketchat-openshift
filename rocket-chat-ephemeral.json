@@ -152,7 +152,7 @@
                 "name": "rocketchat",
                 "creationTimestamp": null,
                 "labels": {
-                    "app": "rocketchat"
+                    "app": "rocket-chat"
                 },
                 "annotations": {
                     "openshift.io/generated-by": "OpenShiftNewApp"
@@ -192,14 +192,14 @@
                 "replicas": 1,
                 "test": false,
                 "selector": {
-                    "app": "rocketchat",
-                    "deploymentconfig": "rocketchat"
+                    "app": "rocket-chat",
+                    "deploymentconfig": "rocket-chat"
                 },
                 "template": {
                     "metadata": {
                         "creationTimestamp": null,
                         "labels": {
-                            "app": "rocketchat",
+                            "app": "rocket-chat",
                             "deploymentconfig": "rocketchat"
                         },
                         "annotations": {
@@ -217,7 +217,7 @@
                         "containers": [
                             {
                                 "name": "rocketchat",
-                                "image": "172.30.11.220:5000/openshift/rocket-chat@sha256:0cb778a504334142a411ecf6ea6ab23ba02e64eb2591a5833e4b1745361645ca",
+                                "image": "172.30.11.220:5000/openshift/rocket-chat@sha256:5aafd2b31b95b7bbdd82cf65492bb30ad3e364e20abb7e50cd6b872b9a1eb3ff",
                                 "ports": [
                                     {
                                         "containerPort": 3000,
@@ -257,7 +257,7 @@
                 "name": "rocketchat",
                 "creationTimestamp": null,
                 "labels": {
-                    "app": "rocketchat"
+                    "app": "rocket-chat"
                 },
                 "annotations": {
                     "openshift.io/host.generated": "true"
